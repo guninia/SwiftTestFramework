@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Steven Huang" => "steven@magv.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/AndrewMagv/MZPlus.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/guninia/SwiftTestFramework.git", :tag => "#{s.version}" }
   s.source_files  = "SwiftTestFramework/**/*.{swift,h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
