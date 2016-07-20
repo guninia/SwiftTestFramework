@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                    This is the testing spec for testing framework.
                    DESC
 
-  s.homepage     = "http://www.mzplus.com"
+  s.homepage     = "https://github.com/guninia/SwiftTestFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Steven Huang" => "steven@magv.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/guninia/SwiftTestFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/guninia/SwiftTestFramework.git", :tag => "0.0.1" }
   s.source_files  = "SwiftTestFramework/**/*.{swift,h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -90,7 +90,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Google/Analytics"
-  s.dependency "GoogleConversionTracking"
+  s.dependency "MMMaterialDesignSpinner"
 
 end
