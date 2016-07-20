@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BB0F073606EC7AF81BBF16 /* Pods_SwiftTestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086CCC75AB85CDB74006406 /* Pods_SwiftTestFramework.framework */; };
 		B02142381D3729C300E0DE56 /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = B02142361D3729C300E0DE56 /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B02142391D3729C300E0DE56 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B02142371D3729C300E0DE56 /* TestView.m */; };
 		B0E8C73D1D35D111002061CC /* SwiftTestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E8C73C1D35D111002061CC /* SwiftTestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0E8C7451D35D191002061CC /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8C7441D35D191002061CC /* TestViewController.swift */; };
 		B0E8C7751D35D5D0002061CC /* SwiftTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8C7741D35D5D0002061CC /* SwiftTestFramework.swift */; };
-		F82460D6D096941E0B0B5584 /* libPods-SwiftTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E470D83F3BC79DBEDB05A5 /* libPods-SwiftTestFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7086CCC75AB85CDB74006406 /* Pods_SwiftTestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BC5F1D43BF0B0C87C1F4C9 /* Pods-SwiftTestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestFramework/Pods-SwiftTestFramework.release.xcconfig"; sourceTree = "<group>"; };
-		78E470D83F3BC79DBEDB05A5 /* libPods-SwiftTestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02142361D3729C300E0DE56 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		B02142371D3729C300E0DE56 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		B0E8C7391D35D111002061CC /* SwiftTestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82460D6D096941E0B0B5584 /* libPods-SwiftTestFramework.a in Frameworks */,
+				63BB0F073606EC7AF81BBF16 /* Pods_SwiftTestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		7D33BB4DEDFD25A9A3E0B123 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78E470D83F3BC79DBEDB05A5 /* libPods-SwiftTestFramework.a */,
+				7086CCC75AB85CDB74006406 /* Pods_SwiftTestFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

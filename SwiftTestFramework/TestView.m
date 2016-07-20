@@ -7,6 +7,7 @@
 //
 
 #import "TestView.h"
+#import <MMMaterialDesignSpinner/MMMaterialDesignSpinner.h>
 
 @implementation TestView
 

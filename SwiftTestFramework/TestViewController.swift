@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MMMaterialDesignSpinner
 
 public class TestViewController: UIViewController {
 
@@ -26,6 +27,8 @@ public class TestViewController: UIViewController {
         let textView: TestView = TestView(frame: viewFrame)
         view.addSubview(textView)
         
+        let spinner: MMMaterialDesignSpinner = MMMaterialDesignSpinner(frame: CGRectZero)
+        view.addSubview(spinner)
     }
 
     override public func didReceiveMemoryWarning() {
